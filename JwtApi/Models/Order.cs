@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace JwtApi.Models
 {
@@ -14,6 +15,7 @@ namespace JwtApi.Models
         public int ShippingMethodId { get; set; }
         public virtual Status Status { get; set; }
         public virtual ShippingMethod ShippingMethod { get; set; }
+        [JsonIgnore]
         public virtual ICollection<Basket> Baskets { get; set; } = new List<Basket>();
     }
 }

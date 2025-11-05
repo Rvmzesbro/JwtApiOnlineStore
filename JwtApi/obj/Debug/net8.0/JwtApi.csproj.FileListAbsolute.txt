@@ -147,3 +147,4 @@ C:\Users\мой\OneDrive\Desktop\RPM\JwtApi\JwtApi\obj\Debug\net8.0\refint\JwtAp
 C:\Users\мой\OneDrive\Desktop\RPM\JwtApi\JwtApi\obj\Debug\net8.0\JwtApi.pdb
 C:\Users\мой\OneDrive\Desktop\RPM\JwtApi\JwtApi\obj\Debug\net8.0\JwtApi.genruntimeconfig.cache
 C:\Users\мой\OneDrive\Desktop\RPM\JwtApi\JwtApi\obj\Debug\net8.0\ref\JwtApi.dll
+C:\Users\мой\OneDrive\Desktop\RPM\JwtApi\JwtApi\obj\Debug\net8.0\JwtApi.sourcelink.json

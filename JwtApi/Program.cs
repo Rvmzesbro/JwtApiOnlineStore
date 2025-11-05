@@ -15,6 +15,11 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ContextDB>(p => p.UseNpgsql(builder.Configuration.GetConnectionString("StringDB")), ServiceLifetime.Scoped);
 
 builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+builder.Services.AddScoped<IClientService, ClientService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
 

@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace JwtApi.Models
 {
@@ -18,6 +19,7 @@ namespace JwtApi.Models
         public int RoleId { get; set; }
         public virtual Role Role { get; set; }
         public virtual ICollection<PaymentMethod> PaymentMethods { get; set; } = new List<PaymentMethod>();
+        [JsonIgnore]
         public virtual ICollection<Basket> Baskets { get; set; } = new List<Basket>();
         public virtual ICollection<Session> Sessions { get; set; } = new List<Session>();
     }

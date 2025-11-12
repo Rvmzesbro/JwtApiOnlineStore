@@ -34,6 +34,8 @@ namespace JwtApi.CustomAttributes
                 return;
             }
 
+            context.HttpContext.Items["CurrentUserId"] = session.UserId;
+
             if (!_roleId.Contains(session.UserId))
             {
                 context.Result = new JsonResult(new { error = "Недостаточно прав" }) { StatusCode = 403 };

@@ -1,4 +1,5 @@
-﻿using JwtApi.Interfaces;
+﻿using JwtApi.CustomAttributes;
+using JwtApi.Interfaces;
 using JwtApi.Requests;
 using Microsoft.AspNetCore.Mvc;
 
@@ -14,6 +15,7 @@ namespace JwtApi.Controllers
 
         [HttpGet]
         [Route("/api/client/GetClientById")]
+        [RoleAuthorize([1,2])]
         public async Task<ActionResult> GetClientById(int Id)
         {
             return await service.GetClientById(Id);
@@ -21,6 +23,7 @@ namespace JwtApi.Controllers
 
         [HttpPut]
         [Route("/api/client/UpdateClient")]
+        [RoleAuthorize([1,2])]
         public async Task<ActionResult> UpdateClient(int Id, CreateClient UpdateClient)
         {
             return await service.UpdateClient(Id, UpdateClient);
@@ -28,6 +31,7 @@ namespace JwtApi.Controllers
 
         [HttpDelete]
         [Route("/api/client/DeleteClient")]
+        [RoleAuthorize([1,2])]
         public async Task<ActionResult> DeleteClient(int Id)
         {
             return await service.DeleteClient(Id);

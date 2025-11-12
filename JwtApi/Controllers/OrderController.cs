@@ -1,4 +1,5 @@
-﻿using JwtApi.Interfaces;
+﻿using JwtApi.CustomAttributes;
+using JwtApi.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace JwtApi.Controllers
@@ -13,6 +14,7 @@ namespace JwtApi.Controllers
 
         [HttpGet]
         [Route("/api/order/GetAllOrders")]
+        [RoleAuthorize([1, 2])]
         public async Task<ActionResult> GetAllOrders()
         {
             return await service.GetAllOrders();
@@ -20,6 +22,7 @@ namespace JwtApi.Controllers
 
         [HttpPut]
         [Route("/api/order/EditStatusOrder")]
+        [RoleAuthorize([1, 2])]
         public async Task<ActionResult> EditStatusOrder(int Id, int StatusId)
         {
             return await service.EditStatusOrder(Id, StatusId);
@@ -27,6 +30,7 @@ namespace JwtApi.Controllers
 
         [HttpGet]
         [Route("/api/order/ReportSales")]
+        [RoleAuthorize([2])]
         public async Task<ActionResult> ReportSales(int Id)
         {
             return await service.ReportSales(Id);

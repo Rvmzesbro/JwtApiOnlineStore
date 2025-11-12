@@ -1,4 +1,5 @@
-﻿using JwtApi.Interfaces;
+﻿using JwtApi.CustomAttributes;
+using JwtApi.Interfaces;
 using JwtApi.Requests;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -22,6 +23,7 @@ namespace JwtApi.Controllers
 
         [HttpPut]
         [Route("/api/user/EditRole")]
+        [RoleAuthorize([1])]
         public async Task<ActionResult> EditRole(int Id, int RoleId)
         {
             return await service.EditRole(Id, RoleId);
@@ -29,6 +31,7 @@ namespace JwtApi.Controllers
 
         [HttpGet]
         [Route("/api/user/UserLog")]
+        [RoleAuthorize([1])]
         public async Task<ActionResult> UserLog(int Id)
         {
             return await service.UserLog(Id);

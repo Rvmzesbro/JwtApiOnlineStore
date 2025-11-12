@@ -16,6 +16,7 @@ namespace JwtApi.Controllers
 
         [HttpPost]
         [Route("/api/employee/CreateEmployee")]
+        [RoleAuthorize([1])]
         public async Task<ActionResult> CreateEmployee([FromBody]CreateEmployee NewEmployee)
         {
             return await service.CreateEmployee(NewEmployee);
@@ -23,6 +24,7 @@ namespace JwtApi.Controllers
 
         [HttpGet]
         [Route("/api/employee/GetAllEmployee")]
+        [RoleAuthorize([1])]
         public async Task<ActionResult> GetAllEmployee()
         {
             return await service.GetAllEmployee();
@@ -30,6 +32,7 @@ namespace JwtApi.Controllers
 
         [HttpPut]
         [Route("/api/employee/UpdateEmployee")]
+        [RoleAuthorize([1])]
         public async Task<ActionResult> UpdateEmployee(int Id, CreateEmployee UpdateEmployee)
         {
             return await service.UpdateEmployee(Id, UpdateEmployee);
@@ -37,6 +40,7 @@ namespace JwtApi.Controllers
 
         [HttpDelete]
         [Route("/api/employee/DeleteEmployee")]
+        [RoleAuthorize([1])]
         public async Task<ActionResult> DeleteEmployee(int Id)
         {
             return await service.DeleteEmployee(Id);

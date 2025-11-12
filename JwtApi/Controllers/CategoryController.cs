@@ -24,5 +24,12 @@ namespace JwtApi.Controllers
         {
             return await service.DeleteCategory(Id);
         }
+
+        [HttpGet]
+        [Route("/api/category/GetCategories")]
+        public async Task<ActionResult> GetCategories()
+        {
+            return await service.GetCategories();
+        }
     }
 }

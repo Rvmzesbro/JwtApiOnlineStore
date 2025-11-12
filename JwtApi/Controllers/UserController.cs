@@ -1,4 +1,6 @@
 ﻿using JwtApi.Interfaces;
+using JwtApi.Requests;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace JwtApi.Controllers
@@ -9,6 +11,13 @@ namespace JwtApi.Controllers
         public UserController(IUserService userService)
         {
             service = userService;
+        }
+
+        [HttpPost]
+        [Route("/api/user/Authorization")]
+        public async Task<ActionResult> Authorization(AuthorizeUser RequestUser)
+        {
+            return await service.Authorization(RequestUser);
         }
 
         [HttpPut]

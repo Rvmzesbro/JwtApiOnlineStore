@@ -1,5 +1,7 @@
-﻿using JwtApi.Interfaces;
+﻿using JwtApi.CustomAttributes;
+using JwtApi.Interfaces;
 using JwtApi.Requests;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace JwtApi.Controllers
@@ -14,7 +16,7 @@ namespace JwtApi.Controllers
 
         [HttpPost]
         [Route("/api/employee/CreateEmployee")]
-        public async Task<ActionResult> CreateEmployee(CreateEmployee NewEmployee)
+        public async Task<ActionResult> CreateEmployee([FromBody]CreateEmployee NewEmployee)
         {
             return await service.CreateEmployee(NewEmployee);
         }

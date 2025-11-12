@@ -6,5 +6,6 @@ namespace JwtApi.Interfaces
     {
         Task<ActionResult> CreateCategory(string Name);
         Task<ActionResult> DeleteCategory(int Id);
+        Task<ActionResult> GetCategories();
     }
 }

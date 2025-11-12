@@ -49,5 +49,16 @@ namespace JwtApi.Services
                 statsus = true
             });
         }
+
+        public async Task<ActionResult> GetCategories()
+        {
+            var categories = await db.Categories.ToListAsync();
+
+            return new OkObjectResult(new
+            {
+                statsus = true,
+                categories = categories
+            });
+        }
     }
 }

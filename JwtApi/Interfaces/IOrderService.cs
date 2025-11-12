@@ -6,5 +6,6 @@ namespace JwtApi.Interfaces
     {
         Task<ActionResult> GetAllOrders();
         Task<ActionResult> EditStatusOrder(int Id, int StatusId);
+        Task<ActionResult> ReportSales(int Id);
     }
 }

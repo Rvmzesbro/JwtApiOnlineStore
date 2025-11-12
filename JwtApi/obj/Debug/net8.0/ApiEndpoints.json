@@ -32,6 +32,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "JwtApi.Controllers.CategoryController",
+    "Method": "GetCategories",
+    "RelativePath": "api/category/GetCategories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "JwtApi.Controllers.ClientController",
     "Method": "DeleteClient",
     "RelativePath": "api/client/DeleteClient",
@@ -128,24 +138,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "FullName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Email",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Password",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Phone",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "NewEmployee",
+        "Type": "JwtApi.Requests.CreateEmployee",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -241,6 +236,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JwtApi.Controllers.OrderController",
+    "Method": "ReportSales",
+    "RelativePath": "api/order/ReportSales",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -346,6 +357,27 @@
       },
       {
         "Name": "Category",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JwtApi.Controllers.UserController",
+    "Method": "Authorization",
+    "RelativePath": "api/user/Authorization",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
         "Type": "System.String",
         "IsRequired": false
       }

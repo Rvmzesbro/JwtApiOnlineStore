@@ -24,5 +24,12 @@ namespace JwtApi.Controllers
         {
             return await service.EditStatusOrder(Id, StatusId);
         }
+
+        [HttpGet]
+        [Route("/api/order/ReportSales")]
+        public async Task<ActionResult> ReportSales(int Id)
+        {
+            return await service.ReportSales(Id);
+        }
     }
 }

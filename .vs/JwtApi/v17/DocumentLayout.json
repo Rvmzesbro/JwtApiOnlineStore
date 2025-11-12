@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\\u043C\u043E\u0439\\OneDrive\\Desktop\\RPM\\JwtApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A78113FF-71DC-4308-8619-5FD3E89B9344}|JwtApi\\JwtApi.csproj|c:\\users\\\u043C\u043E\u0439\\onedrive\\desktop\\rpm\\jwtapi\\jwtapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A78113FF-71DC-4308-8619-5FD3E89B9344}|JwtApi\\JwtApi.csproj|solutionrelative:jwtapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A78113FF-71DC-4308-8619-5FD3E89B9344}|JwtApi\\JwtApi.csproj|c:\\users\\\u043C\u043E\u0439\\onedrive\\desktop\\rpm\\jwtapi\\jwtapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A78113FF-71DC-4308-8619-5FD3E89B9344}|JwtApi\\JwtApi.csproj|solutionrelative:jwtapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A78113FF-71DC-4308-8619-5FD3E89B9344}|JwtApi\\JwtApi.csproj|c:\\users\\\u043C\u043E\u0439\\onedrive\\desktop\\rpm\\jwtapi\\jwtapi\\customattributes\\roleauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A78113FF-71DC-4308-8619-5FD3E89B9344}|JwtApi\\JwtApi.csproj|solutionrelative:jwtapi\\customattributes\\roleauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A78113FF-71DC-4308-8619-5FD3E89B9344}|JwtApi\\JwtApi.csproj|c:\\users\\\u043C\u043E\u0439\\onedrive\\desktop\\rpm\\jwtapi\\jwtapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A78113FF-71DC-4308-8619-5FD3E89B9344}|JwtApi\\JwtApi.csproj|solutionrelative:jwtapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A78113FF-71DC-4308-8619-5FD3E89B9344}|JwtApi\\JwtApi.csproj|c:\\users\\\u043C\u043E\u0439\\onedrive\\desktop\\rpm\\jwtapi\\jwtapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A78113FF-71DC-4308-8619-5FD3E89B9344}|JwtApi\\JwtApi.csproj|solutionrelative:jwtapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A78113FF-71DC-4308-8619-5FD3E89B9344}|JwtApi\\JwtApi.csproj|c:\\users\\\u043C\u043E\u0439\\onedrive\\desktop\\rpm\\jwtapi\\jwtapi\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A78113FF-71DC-4308-8619-5FD3E89B9344}|JwtApi\\JwtApi.csproj|solutionrelative:jwtapi\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A78113FF-71DC-4308-8619-5FD3E89B9344}|JwtApi\\JwtApi.csproj|c:\\users\\\u043C\u043E\u0439\\onedrive\\desktop\\rpm\\jwtapi\\jwtapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A78113FF-71DC-4308-8619-5FD3E89B9344}|JwtApi\\JwtApi.csproj|solutionrelative:jwtapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A78113FF-71DC-4308-8619-5FD3E89B9344}|JwtApi\\JwtApi.csproj|c:\\users\\\u043C\u043E\u0439\\onedrive\\desktop\\rpm\\jwtapi\\jwtapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A78113FF-71DC-4308-8619-5FD3E89B9344}|JwtApi\\JwtApi.csproj|solutionrelative:jwtapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A78113FF-71DC-4308-8619-5FD3E89B9344}|JwtApi\\JwtApi.csproj|c:\\users\\\u043C\u043E\u0439\\onedrive\\desktop\\rpm\\jwtapi\\jwtapi\\universalmethods\\jwtgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A78113FF-71DC-4308-8619-5FD3E89B9344}|JwtApi\\JwtApi.csproj|solutionrelative:jwtapi\\universalmethods\\jwtgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A78113FF-71DC-4308-8619-5FD3E89B9344}|JwtApi\\JwtApi.csproj|c:\\users\\\u043C\u043E\u0439\\onedrive\\desktop\\rpm\\jwtapi\\jwtapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A78113FF-71DC-4308-8619-5FD3E89B9344}|JwtApi\\JwtApi.csproj|solutionrelative:jwtapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A78113FF-71DC-4308-8619-5FD3E89B9344}|JwtApi\\JwtApi.csproj|c:\\users\\\u043C\u043E\u0439\\onedrive\\desktop\\rpm\\jwtapi\\jwtapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A78113FF-71DC-4308-8619-5FD3E89B9344}|JwtApi\\JwtApi.csproj|solutionrelative:jwtapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,29 +70,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\\u043C\u043E\u0439\\OneDrive\\Desktop\\RPM\\JwtApi\\JwtApi\\Models\\User.cs",
-              "RelativeDocumentMoniker": "JwtApi\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\\u043C\u043E\u0439\\OneDrive\\Desktop\\RPM\\JwtApi\\JwtApi\\Models\\User.cs",
-              "RelativeToolTip": "JwtApi\\Models\\User.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBUAAAATAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\\u043C\u043E\u0439\\OneDrive\\Desktop\\RPM\\JwtApi\\JwtApi\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "JwtApi\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\\u043C\u043E\u0439\\OneDrive\\Desktop\\RPM\\JwtApi\\JwtApi\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "JwtApi\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAzwB4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T18:05:22.214Z",
+              "WhenOpened": "2025-11-11T22:05:57.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoleAuthorizeAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\\u043C\u043E\u0439\\OneDrive\\Desktop\\RPM\\JwtApi\\JwtApi\\CustomAttributes\\RoleAuthorizeAttribute.cs",
+              "RelativeDocumentMoniker": "JwtApi\\CustomAttributes\\RoleAuthorizeAttribute.cs",
+              "ToolTip": "C:\\Users\\\u043C\u043E\u0439\\OneDrive\\Desktop\\RPM\\JwtApi\\JwtApi\\CustomAttributes\\RoleAuthorizeAttribute.cs",
+              "RelativeToolTip": "JwtApi\\CustomAttributes\\RoleAuthorizeAttribute.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T11:51:46.577Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\\u043C\u043E\u0439\\OneDrive\\Desktop\\RPM\\JwtApi\\JwtApi\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "JwtApi\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\\u043C\u043E\u0439\\OneDrive\\Desktop\\RPM\\JwtApi\\JwtApi\\Controllers\\UserController.cs",
               "RelativeToolTip": "JwtApi\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T17:52:22.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T22:22:34.7Z"
             },
             {
               "$type": "Document",
@@ -94,49 +113,57 @@
               "RelativeDocumentMoniker": "JwtApi\\Interfaces\\IUserService.cs",
               "ToolTip": "C:\\Users\\\u043C\u043E\u0439\\OneDrive\\Desktop\\RPM\\JwtApi\\JwtApi\\Interfaces\\IUserService.cs",
               "RelativeToolTip": "JwtApi\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T17:52:21.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T22:22:28.598Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\\u043C\u043E\u0439\\OneDrive\\Desktop\\RPM\\JwtApi\\JwtApi\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "JwtApi\\Services\\UserService.cs",
               "ToolTip": "C:\\Users\\\u043C\u043E\u0439\\OneDrive\\Desktop\\RPM\\JwtApi\\JwtApi\\Services\\UserService.cs",
               "RelativeToolTip": "JwtApi\\Services\\UserService.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAwwDsAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwCAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T17:52:18.673Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T22:20:20.009Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "JwtGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\\u043C\u043E\u0439\\OneDrive\\Desktop\\RPM\\JwtApi\\JwtApi\\UniversalMethods\\JwtGenerator.cs",
+              "RelativeDocumentMoniker": "JwtApi\\UniversalMethods\\JwtGenerator.cs",
+              "ToolTip": "C:\\Users\\\u043C\u043E\u0439\\OneDrive\\Desktop\\RPM\\JwtApi\\JwtApi\\UniversalMethods\\JwtGenerator.cs",
+              "RelativeToolTip": "JwtApi\\UniversalMethods\\JwtGenerator.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCMAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T13:25:15.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u043C\u043E\u0439\\OneDrive\\Desktop\\RPM\\JwtApi\\JwtApi\\Program.cs",
               "RelativeDocumentMoniker": "JwtApi\\Program.cs",
               "ToolTip": "C:\\Users\\\u043C\u043E\u0439\\OneDrive\\Desktop\\RPM\\JwtApi\\JwtApi\\Program.cs",
               "RelativeToolTip": "JwtApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABgAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T17:21:43.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T17:21:43.514Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\\u043C\u043E\u0439\\OneDrive\\Desktop\\RPM\\JwtApi\\JwtApi\\appsettings.json",
               "RelativeDocumentMoniker": "JwtApi\\appsettings.json",
               "ToolTip": "C:\\Users\\\u043C\u043E\u0439\\OneDrive\\Desktop\\RPM\\JwtApi\\JwtApi\\appsettings.json",
               "RelativeToolTip": "JwtApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-04T17:20:41.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T17:20:41.119Z"
             }
           ]
         }

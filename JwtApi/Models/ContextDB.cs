@@ -14,6 +14,7 @@ namespace JwtApi.Models
         public DbSet<ShippingMethod> ShippingMethods { get; set; }
         public DbSet<Basket> Baskets { get; set; }
         public DbSet<Order> Orders { get; set; }
+        public DbSet<Session> Sessions { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

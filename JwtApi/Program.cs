@@ -1,6 +1,7 @@
 using JwtApi.Interfaces;
 using JwtApi.Models;
 using JwtApi.Services;
+using JwtApi.UniversalMethods;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,6 +21,8 @@ builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IUserService, UserService>();
+
+builder.Services.AddSingleton<JwtGenerator>();
 
 var app = builder.Build();
 

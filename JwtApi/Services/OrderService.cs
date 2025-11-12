@@ -56,5 +56,26 @@ namespace JwtApi.Services
                 list = ListOrders
             });
         }
+
+        public async Task<ActionResult> ReportSales(int Id)
+        {
+            var order = await db.Orders.Where(p => p.StatusId == 4 && p.Id == Id).ToListAsync();
+            var content_order = await db.Baskets.Where(p => p.OrderId == Id).ToListAsync();
+
+            if(order == null || content_order == null || order.Count == 0 || content_order.Count == 0)
+            {
+                return new OkObjectResult(new
+                {
+                    status = false
+                });
+            }
+
+            return new OkObjectResult(new
+            {
+                status = true,
+                order = order,
+                content_order = content_order
+            });
+        }
     }
 }
